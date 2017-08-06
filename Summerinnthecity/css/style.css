@@ -1,0 +1,302 @@
+body {
+    padding-top: 70px;
+}
+.my_navbar-brand {
+    padding-left: 15px;
+}
+/*CODE FOR NAVBAR   in bootstrap*/
+/*CODE FOR COLOR NYCSCAPE PICTURES    in here*/
+
+.container {
+    /*CONTAINER FOR NAVBAR*/
+    
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.city-bg-1 {
+    background-size: cover;
+    background-image: linear-gradient(rgba(244, 241, 66, .5), rgba(244, 241, 66, .5)), url('../images/424728433crp.jpg');
+    height: 200px;
+    padding: 2%;
+}
+.city-bg-2 {
+    background-size: cover;
+    background-image: linear-gradient(rgba(242, 70, 170, .5), rgba(242, 70, 170, .5)), url('../images/19688940604crp.jpg');
+    height: 200px;
+    padding: 2%;
+}
+.city-bg-3 {
+    background-size: cover;
+    background-image: linear-gradient(rgba(71, 203, 239, .5), rgba(71, 203, 239, .5)), url('../images/14640236511crp.jpg');
+    height: 200px;
+    padding: 2%;
+}
+/*CODE FOR COLORS AND CAROSEL*/
+
+h1 {
+    font-weight: 900;
+    padding-left: 0px;
+    padding-top: .5%;
+    line-height: .25;
+}
+h2 {
+    padding-left: 0px;
+    line-height: .00;
+}
+h4 {
+    color: #FDFFFC;
+    line-height: 2;
+    padding-left: 0px;
+    padding-top: 1.5%;
+    margin-top: 0;
+}
+h5 {
+    letter-spacing: 20px;
+    padding-left: 10px;
+    line-height: 0.00;
+    padding-top: 10px;
+}
+.maroon {
+    color: #C1292E;
+}
+.gray {
+    color: #626C66;
+}
+.darkgray {
+    color: #161925;
+}
+.yellow {
+    color: #F1D302;
+}
+.offwhite {
+    color: #FDFFFC;
+}
+.blue {
+    color: #235789;
+}
+#red {
+    background-color: #ef3102;
+    height: 300px;
+    width: 400px;
+    padding: 15px;
+}
+p {
+    font-weight: lighter;
+    font-size: 1.5rem
+}
+
+
+/*CODE FOR VISIT PAGE TOP ROW*/
+
+#blurb1 {
+    /*padding-top: 30px;*/
+    
+    padding-left: 5%;
+}
+.container-fluid-blue {
+    height: 300px;
+    width: 400px;
+    background-color: #235789;
+    color: #FDFFFC;
+    margin-top: 0;
+    margin-left: -2%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+hr {
+    border-top-color: darken(@jumbotron-bg, 10%);
+}
+/*CAROSEL PICS*/
+
+.item {
+    width: 400px;
+    height: 300px;
+}
+.carousel-indicators {
+    width: 250px;
+    position: absolute;
+}
+.carousel-inner {
+    width: 400px;
+    height: 300px;
+}
+.carousel-control {
+    position: absolute;
+    width: 15%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+}
+.dropdown-menu {
+    background-color: transparent;
+    color: white;
+    /*background-color: #fff;*/
+    
+    display: inline-block;
+}
+.dropdown-toggle:focus {
+    outline: 0;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 0px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.container>.navbar-header,
+.container-fluid>.navbar-header,
+.container>.navbar-collapse,
+.container-fluid>.navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+}
+@media only screen and (max-width: 200px) and (min-width: 120px) {
+    .container>.navbar-header,
+    .container-fluid>.navbar-header,
+    .container>.navbar-collapse,
+    .container-fluid>.navbar-collapse {
+        /*padding-left: 15px; */
+    }
+}
+.container-fluid {
+    margin-left: -15px;
+    display: inline-block;
+    vertical-align: top;
+}
+.thumbnail {
+    display: inline-block;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: none;
+    border: 0px;
+    border-top: 10px solid #C1292E;
+    border-bottom: 10px solid #F1D302;
+    border-radius: 0px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+.thumbnails {
+    display: inline-block;
+    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-bottom: 00px;
+    line-height: 1.42857143;
+    /*background-color: #F1D302;*/
+    
+    border: 0px;
+    /*border-top: 0px solid #F1D302;*/
+}
+@media only screen and (max-width: 400px) {
+    /*CODE FOR MEDIA QUERY TO DELETE BOTTOM YELLOW RULE ON SMALL DEVICES*/
+    
+    .thumbnail {
+        display: inline-block;
+        padding-top: 4px;
+        padding-right: 4px;
+        padding-bottom: 4px;
+        padding-left: 4px;
+        margin-bottom: 20px;
+        line-height: 1.42857143;
+        background-color: none;
+        border: 0px;
+        border-top: 10px solid #C1292E;
+        border-bottom: 0;
+        border-radius: 0px;
+        -webkit-transition: border .2s ease-in-out;
+        -o-transition: border .2s ease-in-out;
+        transition: border .2s ease-in-out;
+    }
+}
+#innerWrap1 {
+    display: inline-block;
+    position: absolute;
+}
+#innerWrap2 {
+    display: inline-block;
+    margin-top: -400px;
+}
+.dropup,
+.dropdown {
+    position: relative;
+}
+.open>.myDropdown-menu {
+    display: block;
+}
+.open>a {
+    outline: 0;
+    color: white;
+}
+/*.navbar-inverse .mynavbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .mynavbar-nav > .active > a:focus {*/
+/*    color: #fff;*/
+/*    background-color: #080808;*/
+/*}*/
+
+.dropdown-header {
+    display: block;
+    padding: 3px 20px;
+    font-size: 22px;
+    line-height: 1.42857143;
+    color: #777;
+    white-space: nowrap;
+}
+.dropdown-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 990;
+}
+.pull-right>.dropdown-menu {
+    right: 0;
+    left: auto;
+}
+.dropup .caret,
+.navbar-fixed-bottom .dropdown .caret {
+    content: "";
+    border-top: 0;
+    border-bottom: 4px dashed;
+    border-bottom: 4px solid \9;
+}
+.dropup .dropdown-menu,
+.navbar-fixed-bottom .dropdown .dropdown-menu {
+    top: auto;
+    bottom: 100%;
+    margin-bottom: 2px;
+}
+.navbar-right .dropdown-menu-left {
+    right: auto;
+    left: 0;
+}
+.btn,
+.btn-group,
+.btn-group-vertical {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
